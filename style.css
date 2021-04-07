@@ -1,0 +1,69 @@
+body
+{
+    background-color: black;
+    color: gray;
+}
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+#inputtab
+{
+    text-align: center;
+    background-color: rgb(97, 97, 97);
+    min-height: 50px;
+    width: 100%;
+    color: black;
+    padding-bottom: 10px;
+}
+#gamefield
+{
+    user-select: none;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px auto;
+}
+#input1
+{
+    background-color: rgb(150,150,150);
+}
+#input2
+{
+    background-color: rgb(150,150,150);
+}
+#input3
+{
+    background-color: rgb(150,150,150);
+}
+.namedinput
+{
+    display: inline-block;;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align:center;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.square
+{
+    height: 18px;
+    width: 18px;
+    border: solid 1px #3a3737;
+    background-color: #AAAAAA;
+    float:left;
+    cursor: pointer;
+    font-size: 18px;
+    color: red;
+}
+.square:hover
+{
+    background-color: #5f5959;
+    border: solid 1px darkgray;
+}
